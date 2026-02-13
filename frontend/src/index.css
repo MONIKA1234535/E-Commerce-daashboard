@@ -1,0 +1,8 @@
+/* This targets the entire browser window */
+body {
+  background-color: #121212; /* A deep dark grey/black */
+  color: #ffffff;            /* Makes all text white by default */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;         /* Ensures the color covers the whole screen */
+}
