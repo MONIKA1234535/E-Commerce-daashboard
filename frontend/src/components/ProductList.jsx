@@ -11,7 +11,8 @@ const ProductList = () => {
     const fetchProducts = async () => {
       try {
         // Change the URL if your back-end is hosted elsewhere
-        const { data } = await axios.get('http://localhost:5000/api/products');
+        const { data } = await axios.get('https://e-commerce-daashboard.onrender.com');
+        //http://localhost:5000/api/products
         setProducts(data);
         setLoading(false);
       } catch (err) {
